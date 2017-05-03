@@ -275,11 +275,15 @@ hr {
 
 /*---barbers---*/
 .barbers{
-    background: black;
+    background: url(http://you.acoda.com/demo-9/wp-content/uploads/sites/12/2015/12/photodune-12110189-shaving-accessories-in-a-barber-shop-l-1.jpg?id=75);
+    background-size: cover;
+    height: 750px;
+    display: block;
 }
 .barbers .inside{
     padding: 60px 40px;
-    text-align: center;
+    width: 100%;
+    max-width: 1151px;
 }
 
 .barbers h2{
@@ -292,36 +296,6 @@ hr {
 
 
 
-.barbers .image img{
-    width: 100%;
-    height: 450px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: block;
-    border: 13px solid #D4AF37;
-}
 
-.barbers .names{
-    list-style: none;
-    display: block;
-    margin-top: 45px;
-    width: 100%;
-}
 
-.barbers .names li{
-    display: inline-block;
-    line-height: 3;
-    margin-right: 4;
-}
 
-.barbers .names a{
-    text-decoration: none;
-    margin-right: 10px;
-    font-family: 'Bungee Inline', cursive;
-    color: white;
-}
-
-.barbers .names a:hover{
-    text-decoration: none;
-    color: #D4AF37;
-}
