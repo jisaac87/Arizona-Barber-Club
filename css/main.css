@@ -63,6 +63,10 @@ w100{
 
 #n{
     font-family: sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+
 }
 /*---firstBody---*/
 
@@ -82,40 +86,40 @@ w100{
     bottom: 20px;
     text-align: center;
     background-position-y: -500px;
+    height: 750px;
 
 }
 
 
 .first-body .inside{
     padding: 60px 40px;
+    width: 100%;
 }
 
 .first-body .circle{
-    text-align: center;
+    text-align: left;
     font-family: 'Cormorant SC', serif;
     padding: 30px 40px;
     font-size: 30px;
     color: black;
-    border-radius: 50%;
-    width: 294px;
-    border: 3px solid white;
-    position: relative;
-    left: 34%;
-    top: -24px;
     display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1151px;
+
 }
 
 .first-body h3{
-    font-size: 29px;
+    font-size: 96px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Peddana', serif;
 
 }
 
 .first-body h4{
-    font-size: 18px;
+    font-size: 79px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -123,53 +127,61 @@ w100{
     margin-top: 14px;
 }
 
-.first-body .btn{
-    text-align: center;
-    font-family: 'Slabo 27px', serif;
-    position: relative;
-    left: 22%;
-    margin-top: 30;
-    width: 124px;
-    padding: 10;
-    background:white;
-}
 
-.first-body .btn a{
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 2;
-    color: red;
-}
-
-.first-body .btn:hover{
-    transform: scale(1.06);
-    text-decoration: none;
-    color: white;
-}
 
 .first-body .ct-info{
-    position: relative;
-    left: 22px;
     color: white;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Peddana', serif;
+    padding: 30px 40px;
+    max-width: 1151px;
+    margin: 0 auto;
 }
 
-.ct-info li{
+.ct-info .info{
     list-style: none;
     margin-top: 5px;
-    font-size: 20;
-    font-family: 'Slabo 27px', serif;
+    font-size: 38px;
+    font-family: 'Peddana', serif;
+    display: block;
+    padding: 0;
+    text-align: left;
 }
 
-.btn{
-    border: 1px solid #D4AF37;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
-    display: block;
-    position: relative;
+.info li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
 }
+
+.tag{
+    width: 248px;
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    padding: 7px 36px;
+    font-size: 40px;
+    color: black;
+    font-family: 'Peddana', serif;
+    font-weight: 700;
+
+}
+
+.circle a{
+    display: block;
+    margin-top: 17px;
+
+}
+
+.circle .tag:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
 
 /*---Sbody---*/
 
@@ -189,20 +201,22 @@ hr {
 
 .second-body .inside{
     padding: 60px 40px;
+    width: 100%;
+    max-width: 1151px;;
 }
 
-.second-body .info{
-    text-align: center;
-    font-size: 20px;
-    padding: 20px 30px;
-    color: black;
-    font-weight: 700;
-    position: relative;
-    top: 41px;
-    border: 8px solid black;
-    margin-right: 22px;
+.second-body .inf{
     width: 100%;
+    font-family: 'Revalia', cursive;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 68px;
+
 }
+    
 
 .second-body h3{
     text-align: center;
