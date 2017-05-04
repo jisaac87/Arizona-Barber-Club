@@ -216,9 +216,24 @@ hr {
     top: 68px;
 
 }
+
+#ch{
+    font-size: 44px;
+    font-weight: 700;
+    color: #D4AF37;
+    display: block;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #D4AF37;
+    width: 22%;
+    margin: 0 auto;
+    position: relative;
+}
     
 
-.second-body h3{
+.second-body h2{
     text-align: center;
     font-size: 30px;
     margin-top: 30px;
@@ -226,7 +241,7 @@ hr {
     color: #D4AF37;
     margin-bottom: 35px;
     display: block;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Karla', sans-serif;
 
 }
 
@@ -275,9 +290,9 @@ hr {
 
 /*---barbers---*/
 .barbers{
-    background: url(http://you.acoda.com/demo-9/wp-content/uploads/sites/12/2015/12/photodune-12110189-shaving-accessories-in-a-barber-shop-l-1.jpg?id=75);
+    background: url(http://eskipaper.com/images/pattern-backgrounds-5.jpg);
     background-size: cover;
-    height: 750px;
+    height: 900px;
     display: block;
 }
 .barbers .inside{
@@ -287,17 +302,25 @@ hr {
 }
 
 .barbers h2{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 44px;
+    font-weight: 700;
     color: #D4AF37;
     display: block;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Karla', sans-serif;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #D4AF37;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 90;
 }
 
 .barbers .five{
     width: 100%;
     max-width: 1410px;
+    margin-top: 74px;
 }
 
 
@@ -306,12 +329,59 @@ hr {
     margin-right: 28px;
     max-width: 234.2px;
     width: 100%;
+
 }
+
+.five .employee:hover{
+    transform: scale(1.08);
+    transition-duration: 1s;
+}
+
+
 
 .employee .br{
     width:100%;
-    filter: brightness(50%);
+    filter: brightness(65%);
     height: 390px;
+}
+
+
+
+.employee .nms{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border-bottom: 2px solid #D4AF37;
+}
+
+.employee .booking{
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    background: white;
+    color: black;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6;
+
+}
+
+.employee .booking:hover{
+    background: black;
+    text-decoration: none;
+    color: white;
+    transform: scale(1.08);
+    transition-duration: 1s;
 }
 
 
@@ -320,4 +390,50 @@ hr {
     vertical-align: top;
 }
 
+
+/*---Gallery---*/
+
+.gallery{
+    background: white;
+    height: 900px;
+    display: block;
+}
+
+.gallery .inside{
+    max-width: 1421px;
+    padding: 60px 40px;
+    width: 100%;
+}
+
+.gallery h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #D4AF37;
+    display: block;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 90;
+    border-bottom: 2px solid #D4AF37;
+    margin-bottom: 100px;
+}
+
+.inside .pcs{
+    max-width: 1444px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.pcs .hz{
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+
+.pcs .hz:hover{
+    transform: scale(1.08);
+}
 
