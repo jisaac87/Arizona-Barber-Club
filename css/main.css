@@ -431,9 +431,11 @@ hr {
     width: 100%;
     display: block;
     height: 300px;
+    filter: brightness(41%);
 }
 
 .pcs .hz:hover{
     transform: scale(1.08);
+    transition-duration: 1s;
 }
 
