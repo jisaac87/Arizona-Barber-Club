@@ -283,7 +283,7 @@ hr {
 .barbers .inside{
     padding: 60px 40px;
     width: 100%;
-    max-width: 1151px;
+    max-width: 1410px;
 }
 
 .barbers h2{
@@ -292,10 +292,32 @@ hr {
     color: #D4AF37;
     display: block;
     font-family: 'Bungee Inline', cursive;
+    text-align: center;
+}
+
+.barbers .five{
+    width: 100%;
+    max-width: 1410px;
 }
 
 
+.five .employee{
+    display: inline-block;
+    margin-right: 28px;
+    max-width: 234.2px;
+    width: 100%;
+}
+
+.employee .br{
+    width:100%;
+    filter: brightness(50%);
+    height: 390px;
+}
 
 
+.br{
+    display: inline-block;
+    vertical-align: top;
+}
 
 
