@@ -297,10 +297,11 @@ hr {
 
 /*---barbers---*/
 .barbers{
-    background: url(http://eskipaper.com/images/pattern-backgrounds-5.jpg);
+    background: url(http://st.depositphotos.com/2965415/3861/v/950/depositphotos_38618543-Barbershop-vintage-seamless-pattern.jpg);
     background-size: cover;
     height: 900px;
     display: block;
+    object-fit: cover;
 }
 .barbers .inside{
     padding: 60px 40px;
@@ -357,10 +358,10 @@ hr {
 
 .employee .nms{
     font-family: 'Karla', sans-serif;
-    font-size: 22px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    color: white;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: #D4AF37;
     text-align: center;
     text-transform: uppercase;
     margin-top: 30px;
@@ -448,3 +449,17 @@ hr {
     transition-duration: 1s;
 }
 
+/*---contactUs---*/
+
+
+.contact{
+    display: block;
+    background: black;
+    height: 1000px;
+}
+
+.contact .inside{
+    padding: 60px 40px;
+    max-width: 1421px;
+    width: 100%;
+}
