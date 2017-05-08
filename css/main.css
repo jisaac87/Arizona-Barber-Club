@@ -63,9 +63,10 @@ w100{
 
 #n{
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 37px;
     text-align: left;
     color: black;
+    letter-spacing: 8px;
 
 }
 /*---firstBody---*/
@@ -110,21 +111,23 @@ w100{
 }
 
 .first-body h3{
-    font-size: 96px;
-    font-weight: 600;
+    font-size: 115px;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 7px;
     font-family: 'Peddana', serif;
 
 }
 
 .first-body h4{
     font-size: 79px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 9px;
     color: white;
-    margin-top: 14px;
+    margin-top: 2px;
+    margin-bottom: 35px;
+
 }
 
 
@@ -176,6 +179,7 @@ w100{
     text-decoration: none;
     color: white;
     background-color: black;
+    transition-duration: 1.2s;
 }
 
 
@@ -202,7 +206,7 @@ hr {
 .second-body .inside{
     padding: 60px 40px;
     width: 100%;
-    max-width: 1151px;;
+    max-width: 1403px;;
 }
 
 .second-body .inf{
@@ -210,10 +214,11 @@ hr {
     font-family: 'Revalia', cursive;
     color: black;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     position: relative;
-    top: 68px;
+    top: 25px;
+    letter-spacing: 2px;
 
 }
 
@@ -256,6 +261,7 @@ hr {
     width: 100%;
     padding: 0px 20px;
     display: block;
+    letter-spacing: 1px;
 }
 
 .pricing h2{
@@ -272,7 +278,7 @@ hr {
     font-family: 'Revalia', cursive;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 12px;
+    font-size: 16px;
     color: black;
     font-weight: 600;
 }
@@ -280,6 +286,7 @@ hr {
 .pricing .total{
     display: inline-block;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 .info p{
     font-size: 10px;
@@ -343,6 +350,7 @@ hr {
     width:100%;
     filter: brightness(65%);
     height: 390px;
+    object-fit: cover;
 }
 
 
@@ -395,8 +403,8 @@ hr {
 
 .gallery{
     background: white;
-    height: 900px;
     display: block;
+    height: 1000px;
 }
 
 .gallery .inside{
@@ -432,6 +440,7 @@ hr {
     display: block;
     height: 300px;
     filter: brightness(41%);
+    object-fit: cover;
 }
 
 .pcs .hz:hover{
