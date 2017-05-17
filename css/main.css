@@ -63,10 +63,13 @@ w100{
 
 #n{
     font-family: sans-serif;
-    font-size: 37px;
+    font-size: 43px;
     text-align: left;
     color: black;
     letter-spacing: 8px;
+    display: block;
+    position: relative;
+    bottom: 55px;
 
 }
 /*---firstBody---*/
@@ -138,16 +141,20 @@ w100{
     padding: 30px 40px;
     max-width: 1151px;
     margin: 0 auto;
+    height: 30px;
+    position: relative;
+    bottom: 12px;
 }
 
 .ct-info .info{
     list-style: none;
-    margin-top: 5px;
     font-size: 38px;
     font-family: 'Peddana', serif;
     display: block;
     padding: 0;
     text-align: left;
+    position: relative;
+    bottom: 41px;
 }
 
 .info li{
@@ -171,7 +178,8 @@ w100{
 
 .circle a{
     display: block;
-    margin-top: 17px;
+    position: relative;
+    bottom: 20px;
 
 }
 
@@ -360,7 +368,7 @@ hr {
 
 .employee .nms{
     font-family: 'Karla', sans-serif;
-    font-size: 28px;
+    font-size: 34px;
     letter-spacing: 4px;
     font-weight: 700;
     color: #D4AF37;
@@ -575,4 +583,5 @@ hr {
     display: block;
     position: relative;
     right: 16px;
+
 }
