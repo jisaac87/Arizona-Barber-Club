@@ -585,3 +585,47 @@ hr {
     right: 16px;
 
 }
+
+@media screen and (max-width: 800px){
+    .main-head .link {
+        display: none;
+        
+    }
+
+     .main-head .logo{
+        margin-right: 0px;
+
+    }
+
+    .main-head {
+        text-align: center;
+    }
+
+    .first-body .circle {
+        text-align: center;
+    }
+
+    .first-body{
+        background-repeat: no-repeat;
+    }
+
+    .first-body h3{
+        font-size: 20px;
+        display: inline-block;
+        position: relative;
+        
+
+    }
+
+    .first-body h4 {
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 10px;
+
+    }
+
+
+
+
+
+}
