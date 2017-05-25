@@ -33,7 +33,7 @@ w100{
 }
 
 .main-head .link{
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     position: relative;
     bottom: 53px;
@@ -43,7 +43,7 @@ w100{
 .main-head .link li{
     display: inline-block;
     font-size: 22px;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     margin-right: 52px;
 }
@@ -62,7 +62,7 @@ w100{
 
 
 #n{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 43px;
     text-align: left;
     color: black;
@@ -102,7 +102,7 @@ w100{
 
 .first-body .circle{
     text-align: left;
-    font-family: 'Cormorant SC', serif;
+    font-family: 'Roboto', sans-serif;
     padding: 30px 40px;
     font-size: 30px;
     color: black;
@@ -118,7 +118,7 @@ w100{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 7px;
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -137,7 +137,7 @@ w100{
 
 .first-body .ct-info{
     color: white;
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     padding: 30px 40px;
     max-width: 1151px;
     margin: 0 auto;
@@ -149,7 +149,7 @@ w100{
 .ct-info .info{
     list-style: none;
     font-size: 38px;
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     display: block;
     padding: 0;
     text-align: left;
@@ -171,7 +171,7 @@ w100{
     padding: 7px 36px;
     font-size: 40px;
     color: black;
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 
 }
@@ -219,7 +219,7 @@ hr {
 
 .second-body .inf{
     width: 100%;
-    font-family: 'Revalia', cursive;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 600;
     font-size: 16px;
@@ -235,7 +235,7 @@ hr {
     font-weight: 700;
     color: #D4AF37;
     display: block;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -254,7 +254,7 @@ hr {
     color: #D4AF37;
     margin-bottom: 35px;
     display: block;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -273,7 +273,7 @@ hr {
 }
 
 .pricing h2{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 11px;
     display: block;
     font-size: 20px;
@@ -283,7 +283,7 @@ hr {
 
 .pricing .sm{
     display: inline-block;
-    font-family: 'Revalia', cursive;
+    font-family: 'Roboto', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 16px;
@@ -301,7 +301,7 @@ hr {
 .info p{
     font-size: 10px;
     line-height: 2;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -324,7 +324,7 @@ hr {
     font-weight: 700;
     color: #D4AF37;
     display: block;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -367,7 +367,7 @@ hr {
 
 
 .employee .nms{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 34px;
     letter-spacing: 4px;
     font-weight: 700;
@@ -381,7 +381,7 @@ hr {
 .employee .booking{
     margin-top: 30px;
     font-size: 22px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: white;
     color: black;
     display: block;
@@ -431,7 +431,7 @@ hr {
     color: #D4AF37;
     display: block;
     text-align: center;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -480,7 +480,7 @@ hr {
     font-weight: 700;
     color: #D4AF37;
     display: block;
-    font-family:  'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -621,6 +621,17 @@ hr {
         font-size: 20px;
         display: inline-block;
         margin-left: 10px;
+
+    }
+
+    .first-body .circle a{
+        position: relative;
+        left: 183px;
+
+    }
+
+    .first-body .tag{
+        font-size: 23px;
 
     }
 
