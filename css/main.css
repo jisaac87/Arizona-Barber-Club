@@ -61,7 +61,7 @@ w100{
 }
 
 
-#n{
+.nt{
     font-family: 'Roboto', sans-serif;
     font-size: 43px;
     text-align: left;
@@ -607,12 +607,17 @@ hr {
 
     .first-body{
         background-repeat: no-repeat;
+        height: 775px;
+        display: block;
     }
 
     .first-body h3{
         font-size: 20px;
         display: inline-block;
         position: relative;
+        bottom: 30px;
+        color: #D4AF37;
+        transition-duration: .2s;
         
 
     }
@@ -621,20 +626,86 @@ hr {
         font-size: 20px;
         display: inline-block;
         margin-left: 10px;
+        position: relative;
+        bottom: 30px;
+    
 
     }
 
     .first-body .circle a{
         position: relative;
         left: 183px;
+        bottom: 38px;
 
     }
 
     .first-body .tag{
-        font-size: 23px;
-
+        font-size: 14px;
+        width: 228px;
+        transition-duration: .2s;
     }
 
+    .first-body .nt{
+        font-size: 14px;
+        color: white;
+        position: relative;
+        top: -79px;
+        right: 5px;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .first-body .ct-info{
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .first-body .info{
+        font-size: 20px;
+        display: inline-block;
+        position: relative;
+        bottom: 60px;
+    }
+    
+
+    .second-body{
+        display: block;
+        height: 400px;
+        position: relative;
+        bottom: 519px;
+    }
+
+    .second-body .pricing h2{
+        display: block;
+        font-size: 19px;
+        margin-top: 6px;
+    }
+
+   .second-body .pricing .sm{
+       font-size: 14px;
+   }
+
+
+    .second-body .inf{
+        display: none;
+    }
+
+    .second-body .pricing{
+        margin: 0 auto;
+    }
+
+
+
+
+
+    #ch{
+        font-size: 22px;
+    }
+
+
+
+
+  
 
 
 
