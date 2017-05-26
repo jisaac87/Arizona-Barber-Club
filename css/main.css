@@ -211,10 +211,10 @@ w100{
 
 
 hr {
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 48px;
     border: 0;
     border-top: 5px solid #D4AF37;
+    width: 100px;
 }
 
 .second-body{
@@ -274,7 +274,6 @@ hr {
     display: block;
     padding: 15px 20px;
     text-align: center;
-    margin-left: 93px;
 }
 
 .pricing .op{
@@ -290,17 +289,20 @@ hr {
     display: block;
     font-size: 20px;
     color: black;
+    text-transform: uppercase;
 
 }
 
 .pricing .sm{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
     font-size: 16px;
     color: black;
     font-weight: 600;
+    font-size: 19px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
 }
 
 .pricing .total{
@@ -308,6 +310,8 @@ hr {
     letter-spacing: 4px;
     font-size: 23px;
     font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .info p{
