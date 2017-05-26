@@ -35,9 +35,6 @@ w100{
 .main-head .link{
     font-family: 'Roboto', sans-serif;
     display: inline-block;
-    position: relative;
-    bottom: 53px;
-    left: 221px;
 }
 
 .main-head .link li{
@@ -52,6 +49,9 @@ w100{
 .main-head .link a{
     color: black;
     text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 .main-head .link a:hover{
@@ -60,6 +60,19 @@ w100{
     cursor: pointer;
 }
 
+.ct-info .nt{
+    display: block;
+    letter-spacing: 3.2px;
+    font-size: 61px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ct-info .nt:hover{
+    text-decoration: none;
+    color:white; 
+}
 
 .nt{
     font-family: 'Roboto', sans-serif;
@@ -68,8 +81,6 @@ w100{
     color: black;
     letter-spacing: 8px;
     display: block;
-    position: relative;
-    bottom: 55px;
 
 }
 /*---firstBody---*/
@@ -113,17 +124,18 @@ w100{
 
 }
 
-.first-body h3{
-    font-size: 115px;
+.first-body .big{
+    font-size: 85px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 7px;
     font-family: 'Roboto', sans-serif;
+    color:#D4AF37; 
 
 }
 
 .first-body h4{
-    font-size: 79px;
+    font-size: 67px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 9px;
@@ -141,20 +153,20 @@ w100{
     padding: 30px 40px;
     max-width: 1151px;
     margin: 0 auto;
-    height: 30px;
     position: relative;
-    bottom: 12px;
+    display: block;
+    bottom: 55px;
 }
 
 .ct-info .info{
     list-style: none;
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
-    display: block;
     padding: 0;
     text-align: left;
-    position: relative;
-    bottom: 41px;
+    margin-top: 16px;
+    text-transform: uppercase;
+
 }
 
 .info li{
@@ -165,12 +177,11 @@ w100{
 
 .tag{
     width: 248px;
-    border: 1px solid black;
-    background: white;
+    background: #D4AF37;
     text-align: center;
     padding: 7px 36px;
     font-size: 40px;
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 
@@ -179,7 +190,8 @@ w100{
 .circle a{
     display: block;
     position: relative;
-    bottom: 20px;
+    bottom: 8px;
+    width: 300px;
 
 }
 
@@ -694,13 +706,40 @@ hr {
         margin: 0 auto;
     }
 
-
-
-
-
     #ch{
         font-size: 22px;
     }
+
+    .barbers {
+        display: block;
+
+    }
+
+    .barbers h2{
+        font-size:22px;
+        margin-top: -4px;
+    }
+
+    .barbers .employee{
+        max-width: 199px;
+        position: relative;
+        left: 20;
+        margin-bottom: 32px;
+    }
+
+    #m1{
+        position: relative;
+        left: 164px;
+
+    }
+
+    #m2{
+        position: relative;
+        left: 182px;
+    }
+
+
+
 
 
 
