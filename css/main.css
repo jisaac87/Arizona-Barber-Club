@@ -851,15 +851,70 @@ hr {
         height: 58px;
     }
 
+}
+
+@media screen and (max-width: 320px){
+
+    
+    .first-body{
+        background-repeat: no repeat;
+        display: block;
+    }
+
+    .first-body .big{
+        font-size: 19px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-body h4{
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .first-body .circle a{
+        display: block;
+        position: relative;
+        left: -41px;
+    }
+    
+    .main-head .logo{
+        position: relative;
+        right: 144px;
+    }
+
+    .barbers{
+        display: block;
+        height: 2990px;
+    }
 
 
+    .barbers .employee{
+        max-width: 320px;
+        display: inline;
+        position: relative;
+        left: -58px;
+    }
+
+    .employee .br{
+        margin-bottom: 30px;
+    }
+
+    .employee .booking{
+        
+    }
+
+    #m1{
+        position: relative;
+        left: -57px;
 
 
+    }
 
+    #m2{
+        position: relative;
+        left: -57px;
 
-  
-
-
-
+    }
 
 }
