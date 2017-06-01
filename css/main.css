@@ -736,7 +736,7 @@ hr {
     }
 
     .barbers .five{
-        margin-left: 49px;
+        margin-left: 62px;
 
     }
 
@@ -773,6 +773,11 @@ hr {
         left: 147px;
     }
 
+    .gallery .inside .pcs{
+        position: relative;
+        left: 22px;
+    }
+
 
     .gallery .inside .res{
         display: inline;
@@ -793,6 +798,57 @@ hr {
 
     #invs4{
         display: none;
+    }
+
+    .contact{
+        display: block;
+    }
+
+    .contact h2{
+        margin-top: 55px;
+        margin-bottom: 79px;
+        text-align: center;
+    }
+
+    .contact .cts{
+        display: block;
+        max-width: 800px;
+        text-align: center;
+        position: relative;
+        left: 17px;
+    }
+
+    .contact .cts .topspace{
+        margin-top: 50px;
+    }
+
+    .contact .inz{
+        width: 300px;
+        position: relative;
+        left: 143px;
+    }
+
+    .contact .eml{
+        margin-top: 74px;
+    }
+
+    .contact .form-horizontal{
+        position: relative;
+        left: -17px;
+
+    }
+
+    #rq{
+        width: 388px;
+        position: relative;
+        right: 38px;
+    }
+
+    #middle{
+        position: relative;
+        width: 334px;
+        top: 12px;
+        height: 58px;
     }
 
 
