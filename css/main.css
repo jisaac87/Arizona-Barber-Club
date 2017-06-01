@@ -107,7 +107,7 @@ w100{
 
 
 .first-body .inside{
-    padding: 60px 40px;
+    padding: 51px;
     width: 100%;
 }
 
@@ -166,6 +166,7 @@ w100{
     text-align: left;
     margin-top: 16px;
     text-transform: uppercase;
+    font-weight: 600;
 
 }
 
@@ -192,6 +193,7 @@ w100{
     position: relative;
     bottom: 8px;
     width: 300px;
+    text-decoration: none;
 
 }
 
@@ -608,6 +610,11 @@ hr {
         
     }
 
+    .first-body .info li {
+        display: none;
+
+    }
+
      .main-head .logo{
         margin-right: 0px;
 
@@ -623,12 +630,12 @@ hr {
 
     .first-body{
         background-repeat: no-repeat;
-        height: 775px;
+        height: 787px;
         display: block;
     }
 
-    .first-body h3{
-        font-size: 20px;
+    .first-body .big{
+        font-size: 27px;
         display: inline-block;
         position: relative;
         bottom: 30px;
@@ -639,7 +646,7 @@ hr {
     }
 
     .first-body h4 {
-        font-size: 20px;
+        font-size: 26px;
         display: inline-block;
         margin-left: 10px;
         position: relative;
@@ -650,7 +657,7 @@ hr {
 
     .first-body .circle a{
         position: relative;
-        left: 183px;
+        left: 131px;
         bottom: 38px;
 
     }
@@ -669,6 +676,7 @@ hr {
         right: 5px;
         margin-top: 50px;
         margin-bottom: 0;
+        display: none;
     }
 
     .first-body .ct-info{
@@ -686,10 +694,15 @@ hr {
 
     .second-body{
         display: block;
-        height: 400px;
         position: relative;
         bottom: 519px;
     }
+
+    .second-body .inside{
+
+    }
+
+
 
     .second-body .pricing h2{
         display: block;
@@ -716,6 +729,14 @@ hr {
 
     .barbers {
         display: block;
+        position: relative;
+        bottom: 500;
+        height: 2000px;
+
+    }
+
+    .barbers .five{
+        margin-left: 49px;
 
     }
 
@@ -731,15 +752,47 @@ hr {
         margin-bottom: 32px;
     }
 
+    .gallery{
+       display: block;
+       position: relative;
+       bottom: 524px; 
+    }
+
+    .employee .br{
+
+    }
+
     #m1{
         position: relative;
-        left: 164px;
+        left: 27px;
 
     }
 
     #m2{
         position: relative;
-        left: 182px;
+        left: 147px;
+    }
+
+
+    .gallery .inside .res{
+        display: inline;
+        width: 300px;
+    }
+
+    #invs1{
+        display: none;  
+    }
+
+    #invs2{
+        display: none;
+    }
+
+    #invs3{
+        display: none;
+    }
+
+    #invs4{
+        display: none;
     }
 
 
