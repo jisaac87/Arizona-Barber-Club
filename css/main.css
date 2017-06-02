@@ -630,8 +630,9 @@ hr {
 
     .first-body{
         background-repeat: no-repeat;
-        height: 787px;
         display: block;
+        background-position-y: 0;
+        height: auto;
     }
 
     .first-body .big{
@@ -694,8 +695,6 @@ hr {
 
     .second-body{
         display: block;
-        position: relative;
-        bottom: 519px;
     }
 
     .second-body .inside{
@@ -724,14 +723,14 @@ hr {
     }
 
     #ch{
-        font-size: 22px;
+        font-size: 37px;
+        margin-bottom: 31px;
     }
 
     .barbers {
         display: block;
-        position: relative;
-        bottom: 500;
-        height: 2000px;
+        height: auto;
+        background: #322525;
 
     }
 
@@ -741,8 +740,9 @@ hr {
     }
 
     .barbers h2{
-        font-size:22px;
+        font-size:37px;
         margin-top: -4px;
+        width: 100%;
     }
 
     .barbers .employee{
@@ -754,8 +754,7 @@ hr {
 
     .gallery{
        display: block;
-       position: relative;
-       bottom: 524px; 
+       height: auto; 
     }
 
     .employee .br{
@@ -861,10 +860,16 @@ hr {
         display: block;
     }
 
+    .first-body .inside{
+
+    }
+
     .first-body .big{
         font-size: 19px;
         width: 100%;
         text-align: center;
+        font-weight: 700;
+        text-shadow: 0 0 4px #3f3b49;
     }
 
     .first-body h4{
@@ -875,7 +880,13 @@ hr {
     .first-body .circle a{
         display: block;
         position: relative;
-        left: -41px;
+        left: 0px;
+        text-align: center;
+    }
+
+    #ch{
+        width: 100%;
+
     }
     
     .main-head .logo{
@@ -885,7 +896,8 @@ hr {
 
     .barbers{
         display: block;
-        height: 2990px;
+        height: auto;
+        background: black;
     }
 
 
@@ -901,7 +913,8 @@ hr {
     }
 
     .employee .booking{
-        
+        margin-bottom: 49px;
+
     }
 
     #m1{
