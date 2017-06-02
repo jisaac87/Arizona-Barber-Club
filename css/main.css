@@ -822,9 +822,12 @@ hr {
     }
 
     .contact .inz{
-        width: 300px;
+        width: 100%;
         position: relative;
-        left: 143px;
+        left: 21px;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
     }
 
     .contact .eml{
@@ -833,21 +836,22 @@ hr {
 
     .contact .form-horizontal{
         position: relative;
-        left: -17px;
+        left: -29px;
+        display: block;
 
     }
 
     #rq{
-        width: 388px;
+        width: 100%;
         position: relative;
-        right: 38px;
+        right: 28px;
+        display: block;
     }
 
     #middle{
-        position: relative;
-        width: 334px;
-        top: 12px;
+        display: block;
         height: 58px;
+        width: 111%;
     }
 
 }
@@ -880,7 +884,7 @@ hr {
     .first-body .circle a{
         display: block;
         position: relative;
-        left: 0px;
+        left: -42px;
         text-align: center;
     }
 
@@ -897,7 +901,7 @@ hr {
     .barbers{
         display: block;
         height: auto;
-        background: black;
+        background: #322525;
     }
 
 
@@ -924,10 +928,47 @@ hr {
 
     }
 
+
     #m2{
         position: relative;
         left: -57px;
 
     }
+
+    .gallery h2{
+        display: block;
+        width: 100%;
+    }
+
+    .contact{
+        display: block;
+        height: auto;
+    }
+
+    .contact h2{
+        font-size: 32px;
+        display: block;
+        width: 100%;
+        letter-spacing: 2.1px;
+    }
+
+    .contact .inz{
+        width: 100%;
+        display: block;
+
+    }
+
+    #rq{
+        display: block;
+
+    }
+
+    #middle{
+        display: block;
+        width: 117%;
+    }
+
+
+
 
 }
