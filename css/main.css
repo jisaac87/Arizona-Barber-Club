@@ -253,7 +253,6 @@ hr {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    border-bottom: 2px solid #D4AF37;
     width: 22%;
     margin: 0 auto;
     position: relative;
@@ -325,7 +324,7 @@ hr {
 
 /*---barbers---*/
 .barbers{
-    background: url(http://st.depositphotos.com/2965415/3861/v/950/depositphotos_38618543-Barbershop-vintage-seamless-pattern.jpg);
+    background: url(http://wallpapercave.com/wp/7EzRMg5.jpg);
     background-size: cover;
     height: 900px;
     display: block;
@@ -346,7 +345,6 @@ hr {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    border-bottom: 2px solid #D4AF37;
     width: 20%;
     margin: 0 auto;
     position: relative;
@@ -377,7 +375,7 @@ hr {
 
 .employee .br{
     width:100%;
-    filter: brightness(65%);
+    filter: grayscale(65%);
     height: 390px;
     object-fit: cover;
 }
@@ -393,7 +391,7 @@ hr {
     text-align: center;
     text-transform: uppercase;
     margin-top: 30px;
-    border-bottom: 2px solid #D4AF37;
+    
 }
 
 .employee .booking{
@@ -455,7 +453,6 @@ hr {
     margin: 0 auto;
     width: 20%;
     margin-top: 90;
-    border-bottom: 2px solid #D4AF37;
     margin-bottom: 100px;
 }
 
@@ -502,7 +499,6 @@ hr {
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0 auto;
-    border-bottom: 2px solid #D4AF37;
     margin-bottom: 100px;
     position: relative;
     width: 300;
@@ -637,29 +633,30 @@ hr {
 
     .first-body .big{
         font-size: 27px;
-        display: inline-block;
+        display: block;
         position: relative;
         bottom: 30px;
         color: #D4AF37;
         transition-duration: .2s;
+        text-shadow: 1px 2px white;
         
 
     }
 
     .first-body h4 {
         font-size: 26px;
-        display: inline-block;
+        display: block;
         margin-left: 10px;
         position: relative;
         bottom: 30px;
+        margin-bottom: 2px;
     
 
     }
 
     .first-body .circle a{
-        position: relative;
-        left: 131px;
-        bottom: 38px;
+        display: block;
+        margin: 0 auto;
 
     }
 
@@ -735,7 +732,7 @@ hr {
     }
 
     .barbers .five{
-        margin-left: 62px;
+        margin-left: 10px;
 
     }
 
@@ -762,8 +759,7 @@ hr {
     }
 
     #m1{
-        position: relative;
-        left: 27px;
+        
 
     }
 
@@ -856,116 +852,42 @@ hr {
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
 
-    
-    .first-body{
-        background-repeat: no repeat;
+    .main-head{
         display: block;
-    }
-
-    .first-body .inside{
-
-    }
-
-    .first-body .big{
-        font-size: 19px;
+        height: 142;
+        max-width: 460px;
+        padding: 0;
         width: 100%;
-        text-align: center;
-        font-weight: 700;
-        text-shadow: 0 0 4px #3f3b49;
     }
 
-    .first-body h4{
-        font-size: 13px;
-        font-weight: 700;
-    }
-
-    .first-body .circle a{
-        display: block;
-        position: relative;
-        left: -42px;
-        text-align: center;
-    }
-
-    #ch{
-        width: 100%;
-
-    }
-    
     .main-head .logo{
-        position: relative;
-        right: 144px;
+        display: block;
+        margin: 30 auto;
     }
 
-    .barbers{
+    .barbers {
         display: block;
         height: auto;
-        background: #322525;
     }
 
+    .barbers .inside{
+        display: block;
+        max-width: 460px;
+        width: 100%;
+        text-align: center;
+    }
 
-    .barbers .employee{
-        max-width: 320px;
-        display: inline;
+    #m1,#m2{
         position: relative;
-        left: -58px;
-    }
-
-    .employee .br{
-        margin-bottom: 30px;
-    }
-
-    .employee .booking{
-        margin-bottom: 49px;
-
-    }
-
-    #m1{
-        position: relative;
-        left: -57px;
-
-
-    }
-
-
-    #m2{
-        position: relative;
-        left: -57px;
-
+        left: 20;
     }
 
     .gallery h2{
         display: block;
+        margin: 0 auto;
         width: 100%;
-    }
-
-    .contact{
-        display: block;
-        height: auto;
-    }
-
-    .contact h2{
-        font-size: 32px;
-        display: block;
-        width: 100%;
-        letter-spacing: 2.1px;
-    }
-
-    .contact .inz{
-        width: 100%;
-        display: block;
-
-    }
-
-    #rq{
-        display: block;
-
-    }
-
-    #middle{
-        display: block;
-        width: 117%;
     }
 
 
