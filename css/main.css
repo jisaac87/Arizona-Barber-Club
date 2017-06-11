@@ -245,7 +245,7 @@ hr {
 }
 
 #ch{
-    font-size: 44px;
+    font-size: 72px;
     font-weight: 700;
     color: #D4AF37;
     display: block;
@@ -253,7 +253,7 @@ hr {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    width: 22%;
+    width: 37%;
     margin: 0 auto;
     position: relative;
 }
@@ -288,7 +288,7 @@ hr {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 11px;
     display: block;
-    font-size: 20px;
+    font-size: 28px;
     color: black;
     text-transform: uppercase;
 
@@ -337,7 +337,7 @@ hr {
 }
 
 .barbers h2{
-    font-size: 44px;
+    font-size: 72px;
     font-weight: 700;
     color: #D4AF37;
     display: block;
@@ -442,7 +442,7 @@ hr {
 }
 
 .gallery h2{
-    font-size: 44px;
+    font-size: 72px;
     font-weight: 700;
     color: #D4AF37;
     display: block;
@@ -491,7 +491,7 @@ hr {
 
 .contact h2{
     text-align: center;
-    font-size: 44px;
+    font-size: 72px;
     font-weight: 700;
     color: #D4AF37;
     display: block;
@@ -501,7 +501,7 @@ hr {
     margin: 0 auto;
     margin-bottom: 100px;
     position: relative;
-    width: 300;
+    width: 472;
     margin-top: 80px;
 }
 
@@ -887,6 +887,10 @@ hr {
     .gallery h2{
         display: block;
         margin: 0 auto;
+        width: 100%;
+    }
+
+    .contact h2{
         width: 100%;
     }
 
