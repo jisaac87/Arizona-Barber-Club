@@ -19,7 +19,7 @@ w100{
 }
 .main-head{
     display: block;
-    padding: 49px 222px;
+    padding: 48px 142px;
     position: relative;
 
     
@@ -35,6 +35,7 @@ w100{
 .main-head .link{
     font-family: 'Roboto', sans-serif;
     display: inline-block;
+    width: 81%;
 }
 
 .main-head .link li{
@@ -49,7 +50,7 @@ w100{
 .main-head .link a{
     color: black;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 29px;
     text-transform: uppercase;
     display: inline-block;
 }
@@ -131,6 +132,7 @@ w100{
     letter-spacing: 7px;
     font-family: 'Roboto', sans-serif;
     color:#D4AF37; 
+    text-shadow: 3px 2px white;
 
 }
 
