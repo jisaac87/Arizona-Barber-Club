@@ -309,7 +309,7 @@ hr {
 .pricing .total{
     display: inline-block;
     letter-spacing: 4px;
-    font-size: 23px;
+    font-size: 29px;
     font-weight: 600;
     margin-top: 14px;
     margin-bottom: 14px;
@@ -613,6 +613,9 @@ hr {
 
      .main-head .logo{
         margin-right: 0px;
+        height: 125px;
+        width: 352px;
+        object-fit: cover;
 
     }
 
@@ -632,19 +635,19 @@ hr {
     }
 
     .first-body .big{
-        font-size: 27px;
+        font-size: 41px;
         display: block;
         position: relative;
         bottom: 30px;
         color: #D4AF37;
         transition-duration: .2s;
-        text-shadow: 1px 2px white;
+        text-shadow: 3px 2px white;
         
 
     }
 
     .first-body h4 {
-        font-size: 26px;
+        font-size: 39px;
         display: block;
         margin-left: 10px;
         position: relative;
@@ -657,6 +660,9 @@ hr {
     .first-body .circle a{
         display: block;
         margin: 0 auto;
+        height: 48px;
+        font-size: 20;
+        text-align: center;
 
     }
 
@@ -702,12 +708,13 @@ hr {
 
     .second-body .pricing h2{
         display: block;
-        font-size: 19px;
+        font-size: 30px;
         margin-top: 6px;
+        font-weight: bold;
     }
 
    .second-body .pricing .sm{
-       font-size: 14px;
+       font-size: 18px;
    }
 
 
@@ -720,8 +727,9 @@ hr {
     }
 
     #ch{
-        font-size: 37px;
+        font-size: 54px;
         margin-bottom: 31px;
+        width: 100%;
     }
 
     .barbers {
@@ -737,7 +745,7 @@ hr {
     }
 
     .barbers h2{
-        font-size:37px;
+        font-size:54px;
         margin-top: -4px;
         width: 100%;
     }
@@ -759,18 +767,24 @@ hr {
     }
 
     #m1{
-        
+        margin-left: 110px;
 
     }
 
     #m2{
-        position: relative;
-        left: 147px;
+        
     }
 
     .gallery .inside .pcs{
         position: relative;
         left: 22px;
+    }
+
+    .gallery h2{
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+        width: 100%;
     }
 
 
@@ -865,7 +879,45 @@ hr {
     .main-head .logo{
         display: block;
         margin: 30 auto;
+        height: 80px;
+        width: 300;
+        object-fit: none;
     }
+
+    .first-body .circle{
+        width: 100%;
+        max-width: 490px;
+        padding: 0;
+        height: auto;
+        padding-top: 26px;
+    }
+
+    .first-body .big{
+        font-size: 34px;
+        width: 100%;
+        display: block;
+
+    }
+
+    .first-body h4{
+        font-size: 32px;
+    }
+
+    .first-body .circle a{
+        display: block;
+        height: 47px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .second-body .pricing h2{
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    
 
     .barbers {
         display: block;
@@ -879,18 +931,53 @@ hr {
         text-align: center;
     }
 
+    .barbers h2{
+        display: block;
+        font-size: 57px;
+
+    }
+
     #m1,#m2{
-        position: relative;
-        left: 20;
+        margin-left: 0;
     }
 
     .gallery h2{
         display: block;
         margin: 0 auto;
         width: 100%;
+        font-size: 57px;
     }
 
     .contact h2{
+        width: 100%;
+        font-size: 57px;
+        margin-bottom: 31px;
+    }
+
+    .contact .cts{
+        display: block;
+        margin-top: 15px;
+    }
+
+    .contact .cts .topspace{
+        margin-top: 15px;
+        margin-bottom: 44px;
+    }
+
+    .contact .eml{
+        display: block;
+        margin-top: 40px;
+    }
+
+    #ch{
+        width: 399;
+        display: block;
+        font-size: 57px;
+    }
+
+    #rq{
+        display: block;
+        max-width: 490px;
         width: 100%;
     }
 
