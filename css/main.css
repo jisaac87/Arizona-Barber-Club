@@ -602,12 +602,18 @@ hr {
 
 }
 
+
 @media screen and (max-width: 800px){
+
+
+    .main-head{
+        display: block;
+    }
+
     .main-head .link {
         display: none;
         
     }
-
     .first-body .info li {
         display: none;
 
