@@ -64,7 +64,7 @@ w100{
 .ct-info .nt{
     display: block;
     letter-spacing: 3.2px;
-    font-size: 61px;
+    font-size: 38px;
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -95,16 +95,16 @@ w100{
 }
 
 .first-body{
-    background: url(http://you.acoda.com/barber-shop-wordpress-theme/wp-content/uploads/sites/12/2015/12/photodune-10887603-safety-razor-and-shaving-brush-on-a-stand-l.jpg);
+    background: url(http://thevaletlondon.com/wp-content/uploads/2014/04/home-gallery-24.jpg);
     background-size: cover;
     display: block;
     position: relative;
     bottom: 20px;
     text-align: center;
-    background-position-y: -500px;
+    background-position-y: -850px;
     height: 750px;
 
-}
+}   
 
 
 .first-body .inside{
@@ -131,8 +131,7 @@ w100{
     text-transform: uppercase;
     letter-spacing: 7px;
     font-family: 'Roboto', sans-serif;
-    color:#D4AF37; 
-    text-shadow: 3px 2px white;
+    color:#D4AF37;  
 
 }
 
@@ -152,7 +151,7 @@ w100{
 .first-body .ct-info{
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding: 30px 40px;
+    padding: 47px 40px;
     max-width: 1151px;
     margin: 0 auto;
     position: relative;
@@ -196,6 +195,7 @@ w100{
     bottom: 8px;
     width: 300px;
     text-decoration: none;
+    font-size: 38px;
 
 }
 
