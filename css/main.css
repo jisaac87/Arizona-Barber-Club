@@ -126,21 +126,20 @@ w100{
 }
 
 .first-body .big{
-    font-size: 85px;
+    font-size: 92px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 7px;
+    letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
-    color:#D4AF37;  
-
+    color:black;  
 }
 
 .first-body h4{
-    font-size: 67px;
+    font-size: 84px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 9px;
-    color: white;
+    letter-spacing: 2px;
+    color: #dbcccc;
     margin-top: 2px;
     margin-bottom: 35px;
 
