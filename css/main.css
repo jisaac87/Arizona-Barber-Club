@@ -30,12 +30,16 @@ w100{
     height: 80px;
     display: inline-block;
     margin-right: 40px;
+    top: -9px;
+    position: relative;
 }
 
 .main-head .link{
     font-family: 'Roboto', sans-serif;
     display: inline-block;
-    width: 81%;
+    top: 12px !important;
+    position: relative;
+    float: right;
 }
 
 .main-head .link li{
@@ -46,12 +50,16 @@ w100{
     margin-right: 52px;
 }
 
+.main-head .link li:last-child{
+    margin-right: 0;
+}
+
 
 .main-head .link a{
     color: black;
     text-decoration: none;
     font-size: 29px;
-    text-transform: uppercase;
+    text-transform:capitalize;
     display: inline-block;
 }
 
@@ -102,7 +110,6 @@ w100{
     bottom: 20px;
     text-align: center;
     background-position-y: -850px;
-    height: 750px;
 
 }   
 
@@ -131,7 +138,7 @@ w100{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
-    color:black;  
+    color:#443937;  
     padding-top: 30px;
 }
 
@@ -182,11 +189,15 @@ w100{
     width: 248px;
     text-align: center;
     padding: 7px 36px;
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    border: 2px solid black;
+    background-color: #67524c;
 
+}
+
+.circle .tag:hover{
+    color: white;
 }
 
 .circle a{
@@ -202,12 +213,6 @@ w100{
 
 }
 
-.circle .tag:hover{
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    transition-duration: 1.2s;
-}
 
 
 
@@ -231,7 +236,7 @@ hr {
 }
 
 .second-body .inside{
-    padding: 60px 40px;
+    padding: 40px 40px;
     width: 100%;
     max-width: 1403px;;
 }
@@ -250,9 +255,9 @@ hr {
 }
 
 #ch{
-    font-size: 31px;
+    font-size: 69px;
     font-weight: 700;
-    color:black;
+    color:#56423f;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -262,8 +267,6 @@ hr {
     margin: 0 auto;
     position: relative;
     right: 17px;
-    margin-top: 51px;
-    text-shadow: 2px 2px darkslategrey;
 }
     
 
@@ -284,7 +287,6 @@ hr {
     padding: 15px 91px;
     height: 460px;
     margin: 0 auto;
-    margin-bottom: 69px;
     text-align: center;
 
 }
@@ -297,22 +299,17 @@ hr {
     vertical-align: top;
     margin-right: 26px;
     margin-left: 90px;
-    border-bottom: 6px solid darkslategrey;
     position: relative;
     right: 20px;
 }
 
-.pricing .op:hover{
-    transform: scale(1.08);
-    cursor: pointer;
-}
 
 .pricing h2{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 11px;
     display: block;
     font-size: 17px;
-    color: darkslategrey;
+    color: #D4AF37;
     text-transform: uppercase;
     font-weight: 900;
     margin-top: 0;
@@ -324,8 +321,8 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: darkgrey;
-    font-weight: 700;
-    font-size: 10px;
+    font-weight: 300;
+    font-size: 14px;
     margin-top: 14px;
     margin-bottom: 14px;
     text-transform: uppercase;
@@ -349,7 +346,7 @@ hr {
 
 /*---barbers---*/
 .barbers{
-    background: url(http://wallpapercave.com/wp/7EzRMg5.jpg);
+    background-color:#eeedeb;
     background-size: cover;
     height: 900px;
     display: block;
@@ -364,7 +361,7 @@ hr {
 .barbers h2{
     font-size: 72px;
     font-weight: 700;
-    color: #D4AF37;
+    color: #56423f;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -400,7 +397,6 @@ hr {
 
 .employee .br{
     width:100%;
-    filter: grayscale(65%);
     height: 390px;
     object-fit: cover;
 }
@@ -469,7 +465,7 @@ hr {
 .gallery h2{
     font-size: 72px;
     font-weight: 700;
-    color: #D4AF37;
+    color: black;
     display: block;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -504,7 +500,7 @@ hr {
 
 .contact{
     display: block;
-    background: rgba(43,39,44,1);
+    background-color:#efefef;
 }
 
 .contact .inside{
@@ -517,7 +513,7 @@ hr {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
-    color: #D4AF37;
+    color: black;
     display: block;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
@@ -589,7 +585,7 @@ hr {
     font-weight: 600;
     list-style: none;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 .tmz li{
@@ -598,7 +594,7 @@ hr {
 
 .contact .numb{
     font-size: 22px;
-    color: white;
+    color: black;
     letter-spacing: 8px;
     font-weight: 600;
 }
@@ -609,7 +605,7 @@ hr {
 
 .contact .ema{
     font-size: 22px;
-    color: white; 
+    color: black; 
 }
 
 
