@@ -95,7 +95,7 @@ w100{
 }
 
 .first-body{
-    background: url(http://thevaletlondon.com/wp-content/uploads/2014/04/home-gallery-24.jpg);
+    background: url(../images/home2.jpg);
     background-size: cover;
     display: block;
     position: relative;
@@ -126,22 +126,24 @@ w100{
 }
 
 .first-body .big{
-    font-size: 92px;
+    font-size: 91px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
     color:black;  
+    padding-top: 30px;
 }
 
 .first-body h4{
-    font-size: 84px;
+    font-size: 149px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #dbcccc;
-    margin-top: 2px;
+    color: white;
+    margin-top: -15px;
     margin-bottom: 35px;
+    text-shadow: 0 0 10px black;
 
 }
 
@@ -154,7 +156,7 @@ w100{
     max-width: 1151px;
     margin: 0 auto;
     position: relative;
-    display: block;
+    display: none;
     bottom: 55px;
 }
 
@@ -178,23 +180,25 @@ w100{
 
 .tag{
     width: 248px;
-    background: #D4AF37;
     text-align: center;
     padding: 7px 36px;
-    font-size: 40px;
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    border: 2px solid black;
 
 }
 
 .circle a{
     display: block;
-    position: relative;
-    bottom: 8px;
     width: 300px;
     text-decoration: none;
     font-size: 38px;
+    margin: 0 auto;
+    margin-top: 83px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 358px;
 
 }
 
@@ -246,9 +250,9 @@ hr {
 }
 
 #ch{
-    font-size: 72px;
+    font-size: 31px;
     font-weight: 700;
-    color: #D4AF37;
+    color:black;
     display: block;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -257,6 +261,9 @@ hr {
     width: 37%;
     margin: 0 auto;
     position: relative;
+    right: 17px;
+    margin-top: 51px;
+    text-shadow: 2px 2px darkslategrey;
 }
     
 
@@ -274,24 +281,41 @@ hr {
 
 .second-body .pricing{
     display: block;
-    padding: 15px 20px;
+    padding: 15px 91px;
+    height: 460px;
+    margin: 0 auto;
+    margin-bottom: 69px;
     text-align: center;
+
 }
 
 .pricing .op{
-    width: 100%;
-    padding: 0px 20px;
-    display: block;
+    display: inline-block;
     letter-spacing: 1px;
+    width: 261px;
+    padding-top: 55px;
+    vertical-align: top;
+    margin-right: 26px;
+    margin-left: 90px;
+    border-bottom: 6px solid darkslategrey;
+    position: relative;
+    right: 20px;
+}
+
+.pricing .op:hover{
+    transform: scale(1.08);
+    cursor: pointer;
 }
 
 .pricing h2{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 11px;
     display: block;
-    font-size: 28px;
-    color: black;
+    font-size: 17px;
+    color: darkslategrey;
     text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 0;
 
 }
 
@@ -299,9 +323,9 @@ hr {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: black;
-    font-weight: 600;
-    font-size: 19px;
+    color: darkgrey;
+    font-weight: 700;
+    font-size: 10px;
     margin-top: 14px;
     margin-bottom: 14px;
     text-transform: uppercase;
@@ -467,7 +491,6 @@ hr {
     width: 100%;
     display: block;
     height: 300px;
-    filter: brightness(41%);
     object-fit: cover;
 }
 
