@@ -35,7 +35,7 @@ w100{
 }
 
 .main-head .link{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: inline-block;
     top: 12px !important;
     position: relative;
@@ -45,7 +45,7 @@ w100{
 .main-head .link li{
     display: inline-block;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     margin-right: 52px;
 }
@@ -59,7 +59,7 @@ w100{
     color: black;
     text-decoration: none;
     font-size: 29px;
-    text-transform:capitalize;
+    text-transform:uppercase;
     display: inline-block;
 }
 
@@ -84,7 +84,7 @@ w100{
 }
 
 .nt{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 43px;
     text-align: left;
     color: black;
@@ -109,7 +109,7 @@ w100{
     position: relative;
     bottom: 20px;
     text-align: center;
-    background-position-y: -850px;
+    background-position-y: -883px;
 
 }   
 
@@ -121,8 +121,7 @@ w100{
 
 .first-body .circle{
     text-align: left;
-    font-family: 'Roboto', sans-serif;
-    padding: 30px 40px;
+    font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     color: black;
     display: block;
@@ -137,7 +136,7 @@ w100{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color:#443937;  
     padding-top: 30px;
 }
@@ -158,7 +157,7 @@ w100{
 
 .first-body .ct-info{
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 47px 40px;
     max-width: 1151px;
     margin: 0 auto;
@@ -170,7 +169,7 @@ w100{
 .ct-info .info{
     list-style: none;
     font-size: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 0;
     text-align: left;
     margin-top: 16px;
@@ -190,7 +189,7 @@ w100{
     text-align: center;
     padding: 7px 36px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     background-color: #67524c;
 
@@ -236,14 +235,14 @@ hr {
 }
 
 .second-body .inside{
-    padding: 40px 40px;
+    padding: 40px 62px;
     width: 100%;
-    max-width: 1403px;;
+    margin: 0;
 }
 
 .second-body .inf{
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: 600;
     font-size: 16px;
@@ -259,7 +258,7 @@ hr {
     font-weight: 700;
     color:#56423f;
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -278,47 +277,45 @@ hr {
     color: #D4AF37;
     margin-bottom: 35px;
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 .second-body .pricing{
     display: block;
-    padding: 15px 91px;
-    height: 460px;
     margin: 0 auto;
-    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 
 .pricing .op{
     display: inline-block;
     letter-spacing: 1px;
-    width: 261px;
+    width: 229px;
     padding-top: 55px;
     vertical-align: top;
-    margin-right: 26px;
-    margin-left: 90px;
-    position: relative;
-    right: 20px;
+    text-align: center;
+    margin-bottom: 44px;
 }
 
 
 .pricing h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 11px;
     display: block;
     font-size: 17px;
-    color: #D4AF37;
+    color:#000000;
     text-transform: uppercase;
     font-weight: 900;
     margin-top: 0;
+    letter-spacing: 2px;
 
 }
 
 .pricing .sm{
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: darkgrey;
     font-weight: 300;
@@ -326,7 +323,9 @@ hr {
     margin-top: 14px;
     margin-bottom: 14px;
     text-transform: uppercase;
+    display: none;
 }
+
 
 .pricing .total{
     display: inline-block;
@@ -337,10 +336,48 @@ hr {
     margin-bottom: 14px;
 }
 
+.amnt{
+    font-size: 20px;
+    letter-spacing: 2.2px;
+    font-family: 'Roboto', sans-serif;
+    color: #443937;
+    width: 200px;
+}
+
+#ze{
+    position: relative;
+    right: 19px;
+}
+
+#ne{
+    position: relative;
+    right: 3px;
+}
+
+#tw{
+    position: relative;
+    left: 25px;
+}
+
+#tr{
+    position: relative;
+    left: 23px;
+}
+
+#m-c{
+    position: relative;
+    left: 2px;
+}
+
+.te{
+    position: relative;
+
+}
+
 .info p{
     font-size: 10px;
     line-height: 2;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -363,11 +400,10 @@ hr {
     font-weight: 700;
     color: #56423f;
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    width: 20%;
     margin: 0 auto;
     position: relative;
     margin-top: 90;
@@ -404,7 +440,7 @@ hr {
 
 
 .employee .nms{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 34px;
     letter-spacing: 4px;
     font-weight: 700;
@@ -418,7 +454,7 @@ hr {
 .employee .booking{
     margin-top: 30px;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: white;
     color: black;
     display: block;
@@ -465,14 +501,13 @@ hr {
 .gallery h2{
     font-size: 72px;
     font-weight: 700;
-    color: black;
+    color: #56423f;
     display: block;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0 auto;
-    width: 20%;
     margin-top: 90;
     margin-bottom: 100px;
 }
@@ -504,25 +539,68 @@ hr {
 }
 
 .contact .inside{
-    padding: 60px 40px;
+    padding: 112px 40px;
     max-width: 1385px;
     width: 100%;
 }
 
-.contact h2{
+.sub-title{
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    border: 1px solid black;
     text-align: center;
-    font-size: 72px;
-    font-weight: 700;
-    color: black;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    width: 151px;
+    margin-bottom:30px;
+    padding: 20px 20px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 51px;
+}
+
+.store-inf{
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    margin-left: 30;
+}
+
+.left-title{
+    display: block;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 33px;
+    font-weight: 600;
+    color: #d4af37;
+    letter-spacing: 2px;
+}
+
+.media{
+    display: inline-block;
+    width: 500px;
+    margin-top: 0;
+    vertical-align: top;
+    margin-left: 246px;
+    
+}
+
+.media img{
+    display: block;
+    margin-bottom: 30px;
+    margin: 0 auto;
     position: relative;
-    width: 472;
-    margin-top: 80px;
+    bottom: 12px;
+}
+
+.left-title  a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    color: #56423f;
+    display: inline;
 }
 
 #contact{
