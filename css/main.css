@@ -578,7 +578,6 @@ hr {
 
 .media{
     display: inline-block;
-    width: 500px;
     margin-top: 0;
     vertical-align: top;
     margin-left: 246px;
@@ -698,6 +697,54 @@ hr {
 
 }
 
+.sc-right{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    position: relative;
+    right: 30px;
+}
+.sc-left{
+    display: inline-block;
+    width: 200px;
+    margin-left: 62px;
+}
+
+.sc-right a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+.contact .hours{
+    text-align: center;
+}
+
+
+.hours{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 10px;
+    position: relative;
+    right: 20px;
+}
+
+.time{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
 
 @media screen and (max-width: 800px){
 
@@ -743,7 +790,7 @@ hr {
         display: block;
         position: relative;
         bottom: 30px;
-        color: #D4AF37;
+        color: #523e3b;
         transition-duration: .2s;
         text-shadow: 3px 2px white;
         
@@ -805,6 +852,9 @@ hr {
     }
 
     .second-body .inside{
+        padding: 0;
+        width: 100%;
+        display: block;
 
     }
 
@@ -830,10 +880,22 @@ hr {
         margin: 0 auto;
     }
 
+    .pricing .op{
+        display: inline-block;
+        width: 258px;
+        font-size: 16px;
+    }
+
+    #ze{
+        position: relative;
+        right: -5px;
+    }
+
     #ch{
         font-size: 54px;
         margin-bottom: 31px;
         width: 100%;
+        margin-top: 60px;
     }
 
     .barbers {
@@ -852,6 +914,8 @@ hr {
         font-size:54px;
         margin-top: -4px;
         width: 100%;
+        margin-top: 30px;
+        color: #ffffff;
     }
 
     .barbers .employee{
@@ -913,59 +977,83 @@ hr {
         display: none;
     }
 
+    .pcs .hz{
+        object-fit: cover;
+        height: 600px;
+        margin-bottom: 35px;
+    }
+
     .contact{
         display: block;
+        height: 846px;
     }
 
-    .contact h2{
-        margin-top: 55px;
-        margin-bottom: 79px;
-        text-align: center;
-    }
-
-    .contact .cts{
-        display: block;
-        max-width: 800px;
-        text-align: center;
-        position: relative;
-        left: 17px;
-    }
-
-    .contact .cts .topspace{
-        margin-top: 50px;
-    }
-
-    .contact .inz{
+    .contact .inside{
+        padding: 0;
         width: 100%;
-        position: relative;
-        left: 21px;
-        max-width: 300px;
         margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .store-inf{
         display: block;
+        margin: 0 auto;
     }
 
-    .contact .eml{
-        margin-top: 74px;
-    }
-
-    .contact .form-horizontal{
-        position: relative;
-        left: -29px;
+    .sc-left {
         display: block;
-
-    }
-
-    #rq{
+        margin: 0 auto;
         width: 100%;
-        position: relative;
-        right: 28px;
-        display: block;
     }
 
-    #middle{
+    .sc-right{
         display: block;
-        height: 58px;
-        width: 111%;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-bottom: 27px;
+
+    }
+
+    .sc-right a{
+        display: inline-block;
+        margin: 0;
+        margin-right: 70px;
+        position: relative;
+        left: 29px;
+    }
+
+    .media{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 67px;
+    }
+
+    .media img{
+        display: inline;
+        margin-right: 80px;
+        position: relative;
+        left: 37px;
+    }
+
+    .contact .hours{
+        padding-left: 25px;
+        font-size: 18px;
+        position: relative;
+        left: 9px;
+        margin-bottom: 30px;
+    }
+
+    .hours{
+        display: block;
+        width: 100%;
+    }
+
+    .time{
+        font-weight: 600;
     }
 
 }
